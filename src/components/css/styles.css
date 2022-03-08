@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+}
+
+.align-text{
+  text-align: left;
+}
+
+.upper-margin{
+  margin-top: 1rem
+}
+
+.col{
+  padding: 0px;
+}
+
+.row{
+  margin: 0px;
+}
+
+.make-bold{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nft-container{
+  margin: 4rem 0;
+}
+
+.nft-card{
+  width:18rem;
+  height: 30rem;
+  cursor: pointer;
+  float: left;
+  margin: 4px;
+  overflow: hidden;
+}
+
+.nft-card:hover{
+  box-shadow: 0 0 11px #1b2021;
+}
+
+.fix-img-width-height{
+  height: 18rem;
+}
