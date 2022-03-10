@@ -7,4 +7,4 @@ const nftReducers = (state=[], action) => {
   }
 }
 
-export default nftReducers
+export default nftReducers;

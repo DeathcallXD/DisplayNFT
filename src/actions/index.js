@@ -23,3 +23,12 @@ export const getWalletAddress = () => async (dispatch) => {
     console.error(error);
   }
 }
+
+export const setNFT = (nftData) => (dispatch) => {
+  try{
+    dispatch({type: 'SET_CURRENT_NFT', payload: nftData})
+  }
+  catch(error){
+    console.error(error);
+  }
+}
